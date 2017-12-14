@@ -12,7 +12,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-p {font-size: 23px; line-height: 1.3em;}
+p {font-size: 23px; line-height: 1.3em; border-bottom: 2px solid #333; padding-bottom: 20px;}
 a {color: gray; text-decoration: none; }
 
 #avatar { 
@@ -52,3 +52,4 @@ a {color: gray; text-decoration: none; }
   font-size: 14px;
 }
 .inline-list li a:hover {background: #96EBE1; color: #fff;}
+
