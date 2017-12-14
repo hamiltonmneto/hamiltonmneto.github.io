@@ -7,12 +7,12 @@ h1 {
   padding: 0 20px 20px 20px;
   line-height: 1.2em;
   margin-top: 0;
-  border-bottom: 2px solid #333;
+  
   display: inline-block;
   margin-bottom: 0px;
 }
 
-p {font-size: 23px; line-height: 1.3em; border-bottom: 2px solid #333; padding-bottom: 20px;}
+p {font-size: 23px; line-height: 1.3em;  padding-bottom: 20px;}
 a {color: gray; text-decoration: none; }
 
 #avatar { 
@@ -24,7 +24,7 @@ a {color: gray; text-decoration: none; }
 }
 
 .container {
-  width: 500px;
+  width: 800px;
   margin: 0 auto;
   overflow: none;
 }
@@ -52,4 +52,3 @@ a {color: gray; text-decoration: none; }
   font-size: 14px;
 }
 .inline-list li a:hover {background: #96EBE1; color: #fff;}
-
