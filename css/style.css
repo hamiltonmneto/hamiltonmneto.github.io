@@ -29,8 +29,6 @@ a {color: gray; text-decoration: none; }
   margin: 15 auto;
 }
 
-/* START */
-
 .wrapper {
   width: 50%;
   margin: 40px auto;
@@ -91,9 +89,6 @@ div.gallery ul li img:hover {
     margin: 0;
   }
 
-
-
-/* END */
 .container {
   width: 800px;
   margin: 0 auto;
