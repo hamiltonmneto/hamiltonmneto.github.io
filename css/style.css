@@ -22,6 +22,78 @@ a {color: gray; text-decoration: none; }
   margin: 20px;
 }
 
+.projects{
+  width: 50%;
+  border-style: solid;
+  text-align: center;
+  margin: 15 auto;
+}
+
+/* START */
+
+.wrapper {
+  width: 50%;
+  margin: 40px auto;
+}
+
+div.gallery {
+  margin-top: 30px;
+}
+
+div.gallery ul {
+  list-style-type: none;
+  margin-left: 35px;
+}
+
+div.gallery ul li, div.gallery li img {
+  -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+div.gallery ul li {
+  position: relative;
+  float: left;
+  width: 130px;
+  height: 130px;
+  margin: 5px;
+  padding: 5px;
+  z-index: 0;
+}
+
+div.gallery ul li:hover {
+  z-index: 5;
+}
+
+div.gallery ul li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid #dddddd;
+  padding: 5px;
+  width: 130px;
+  height: 130px;
+  background: #f0f0f0;
+}
+
+div.gallery ul li img:hover {
+  width: 200px;
+  height: 200px;
+  margin-top: -130px;
+  margin-left: -130px;
+  top: 65%;
+  left: 65%;
+}
+
+  div.gallery ul {
+    list-style-type: none;
+    margin: 0;
+  }
+
+
+
+/* END */
 .container {
   width: 800px;
   margin: 0 auto;
@@ -51,3 +123,8 @@ a {color: gray; text-decoration: none; }
   font-size: 14px;
 }
 .inline-list li a:hover {background: #96EBE1; color: #fff;}
+
+    .footer,
+    .push {
+      height: 200px;
+    }
