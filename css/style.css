@@ -3,7 +3,7 @@ body {font-family: Source Sans Pro; text-align: center; line-height: 1.2em; colo
 h1 {
   font-weight: 900;
   font-size: 50px;
-  font-family: Playfair Display;
+  font-family:  Montserrat;
   padding: 0 20px 20px 20px;
   line-height: 1.2em;
   margin-top: 0;
@@ -19,7 +19,20 @@ a {color: gray; text-decoration: none; }
   max-height: 150px; 
   border-radius: 50%;  
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
-  margin: 20px;
+  margin: 20px auto;
+}
+
+.header{
+  width: 100%;
+  background-color: rgb(24,188,156); 
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.header #desc{
+  border-top: 3px solid;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .projects{
@@ -29,30 +42,29 @@ a {color: gray; text-decoration: none; }
   margin: 15 auto;
 }
 
-/* START */
-
 .wrapper {
   width: 50%;
   margin: 40px auto;
 }
 
+
 div.gallery {
   margin-top: 30px;
 }
 
-div.gallery ul {
+.gallery ul {
   list-style-type: none;
   margin-left: 35px;
 }
 
-div.gallery ul li, div.gallery li img {
+.gallery ul li, div.gallery li img {
   -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 
-div.gallery ul li {
+.gallery ul li {
   position: relative;
   float: left;
   width: 130px;
@@ -91,9 +103,6 @@ div.gallery ul li img:hover {
     margin: 0;
   }
 
-
-
-/* END */
 .container {
   width: 800px;
   margin: 0 auto;
