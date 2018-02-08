@@ -137,3 +137,7 @@ div.gallery ul li img:hover {
     .push {
       height: 200px;
     }
+
+.note p {
+	font-size: 12px;
+}
